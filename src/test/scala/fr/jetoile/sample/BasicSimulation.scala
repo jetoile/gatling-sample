@@ -8,6 +8,8 @@ class BasicSimulation extends Simulation {
 
   val httpConf = http
     .baseURL("http://192.168.0.103:8081/sample/say/") // Here is the root for all relative URLs
+	//.baseURL("http://192.168.0.103:8080/tomcat-sample-1.0-SNAPSHOT/services/sample/say/") // Here is the root for all relative URLs
+	//.baseURL("http://192.168.0.103:8080/tomcat-sample-1.0-SNAPSHOT/sample/say/") // Here is the root for all relative URLs
 
   var scn = BasicScenario.scn
 
